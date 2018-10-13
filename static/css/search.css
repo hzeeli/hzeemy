@@ -1,0 +1,134 @@
+.main{
+    background-color: #f2f2f2;
+}
+.scontainer{
+    background: #fff;
+    padding:30px;
+}
+.res-title>p:first-child{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 20px;
+    border-bottom: 1px #333333 solid;
+}
+.res-title>p:nth-child(2){
+    padding:15px 10px 30px;
+}
+.res-title>p:nth-child(2)>span{
+    border: 1px #333333 solid ;
+    font-size:12px; 
+    cursor: pointer;
+    background-color: azure;
+    padding: 3px 5px;
+    margin:0 10px;
+}
+.res-inner>.res-text{
+    border-bottom: 1px #ddd solid;
+    padding: 10px 0;
+}
+.res-inner>.res-text>.res-desc{
+    padding:20px 30px; 
+}
+.res-desc>p:nth-child(1){
+    width: 560px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    padding-bottom:10px;
+}
+.res-desc>p:nth-child(1)>:first-child{
+    color: #333333;
+    font-size: 18px;
+}
+.res-desc>p:nth-child(1)>span:nth-child(2){
+    color: red;
+}
+.res-desc>p:nth-child(1)>span:nth-child(3){
+    color: #e3c3a2;
+}
+.res-desc>p:nth-child(1)>span:nth-child(3)+a{
+    color: #000;
+    text-shadow:0px 0px 8px #fff
+}
+.res-desc>p:nth-child(2){
+    width: 600px;
+}
+.res-text>.res-img img{
+    width:100px;
+    height:100px;
+}
+.nores{
+    color: #333333
+}
+.bg{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    background-attachment: fixed;
+}
+.bg-detail{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.bg-detail>input{
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid rgba(5,5,5,0.9);
+    color: #333;
+    width: 400px;
+    line-height: 30px;
+    padding: 5px 10px;
+}
+.bg-search{
+    background-image: url(../img/goods/bedroom-bg.jpg);
+}
+.icon-search2{
+    color: #333;
+    top: 4px;
+}
+#p-order,#c-order{
+    padding-left: 30px;
+    color: #000;
+}
+.page_btn>ul{
+    float: right
+}
+.page_btn>ul>li{
+    float: left;
+    margin: 5px;
+}
+.page_btn>ul>li>button{
+    background-color: #fff;
+    border: 0;
+    padding: 5px;
+    color: #a3a3a3;
+    width: 50px;
+}
+.bactive{
+    border: 2px solid #cac;
+}
+.fa-chevron-up{
+    
+}
+.fa-chevron-down{
+    
+}
+
+.fa-chevron-down,.fa-chevron-up,.fa-minus{
+    top:-8px;
+    left: 10px;
+    
+}

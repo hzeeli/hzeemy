@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Furniture|商品搜索</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+    <header></header>
+    <div class="main">
+        <!--背景图-->
+        <div class="bg">
+            <div class="bg-img bg-search"></div>
+            <div class="bg-detail">
+                <input type="text" placeholder="请输入商品名称" maxlength="15" id="search-text2">
+                <span class="icon-search icon-search2" onclick="search2()"></span>
+            </div>
+        </div>
+        <div class="container scontainer">
+            <div class="res-title">
+                <p id="res-1">查找结果</p>
+                <p>
+                    <span id="p-order" class="pr">
+                        <i class="fa-minus"></i>
+                        按价格
+                    </span>
+                    <span id="c-order" class="pr">
+                        <i  class="fa-minus"></i>
+                        按销量
+                    </span>
+                </p>  
+            </div>
+            <div class="res-inner">
+                <div class="res-text clear">
+                    <div class="fl res-img">
+                        <img src="img/goods/product_list5.jpg">
+                    </div>
+                    <div class="fl res-desc">
+                        <p>
+                            <span>商品名称</span>
+                            <span>商品价格</span>
+                            <span>销量</span>
+                            <a href="${href}">查看详情</a>
+                        </p>
+                        <p>商品简介</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page_btn">
+                <ul id="page_btn_list">
+                    <!--<li><button data-toggle="item">上一页</button></li>
+                    <li><button data-toggle="item">1</button></li>
+                    <li><button data-toggle="item">2</button></li>
+                    <li><button data-toggle="item">3</button></li>
+                    <li><button data-toggle="item">下一页</button></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/header.js"></script> 
+    <script src="js/search.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+.main{
+    height:824px;
+}
+.reg-main{
+    background:url(../img/reg/bg4.jpg) ;
+    position: absolute;
+    width: 100%;
+}
+.reg-form{
+    width:518px;
+    background-color: rgba(255,255,255,0.7);
+    position: relative;
+    padding: 0 40px 20px;
+    margin: 100px auto;
+}
+.form-title{
+    height:65px;
+    text-align: center;
+    font-size:24px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+.reg-list>li{
+    position: relative;
+}
+.reg-list>li>p:nth-child(1) {
+    color: #444;
+    display:block;
+    float: left;
+}
+.reg-list>li>p:nth-child(2){
+    color: #d40207;
+    display:block;
+    float: right;
+    font-size: 13px;
+}
+.reg-list>li>input {
+    color: #666;
+    border: 1px solid rgb(221, 221, 221);
+    width: 440px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 55px;
+    margin-bottom: 25px;
+}
+.reg-list>li:last-child>input{
+    color: #fff;
+    background-color: #FF6F00;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.reg-list>li:last-child>input:hover{
+    background-color: rgb(255, 123, 0);
+}
+.form-bottom>p{
+    display: inline-block;
+}
+.form-bottom>p:last-child{
+    float: right;
+
+}
+.form-bottom>p:last-child>a{
+    text-decoration: none;
+    color:#FF6F00;
+}
+.reg-icon{
+    position: absolute;
+    top:20px;
+    left: 10px;
+    width: 35px;
+    height: 37px;
+}
+.email-icon{
+    background: url(../img/reg/mybg.png) -9px -40px no-repeat;
+}
+.uname-icon{
+    background: url(../img/reg/mybg.png) -9px 0px no-repeat;
+}
+.pwd-icon{
+    background: url(../img/reg/mybg.png) -9px -80px no-repeat;
+}
+.phone-icon{
+    background: url(../img/reg/mybg.png) -9px -120px no-repeat;
+}
+
+

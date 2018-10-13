@@ -1,0 +1,40 @@
+#footer>.ft>ul{
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+#footer{
+    padding-top:60px;
+    background: #e2f2f2;
+}
+#footer>div{
+    padding:0 40px;
+}
+.ft>ul>li:first-child{
+    color:#666;
+}
+#footer>.ft>ul:nth-child(4)>li:last-child{
+    margin-top:-17px; 
+}
+.zc{
+    margin: 0 280px;
+    color:#666;
+}
+#go-top{
+    position: fixed;
+    z-index: 200;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    bottom: 90px;
+    background-color: #fff;
+    background-image: url(../img/index/goTop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}

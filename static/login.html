@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Furniture|会员登录</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="main">
+        <div class="login-main">
+            <!--注册表单-->
+            <div class="log-form">
+                <p class="form-title">会员登录</p>
+                <ul class="log-list">
+                    <li>
+                        <p>用户账号</p>
+                        <input type="email" placeholder="请输入邮箱" id="email"/>
+                        <span class="reg-icon phone-icon"></span>
+                    </li>
+                    <li>
+                        <p>
+                            <span>用户密码</span>
+                        </p>
+                        <input type="text" placeholder="请输入登录密码" id="upwd" />
+                        <span class="reg-icon pwd-icon"></span>
+                    </li>
+                    <li>
+                        <input type="button" value="确认登录" onclick="login()"  id="form-button"/>
+                    </li>
+                </ul>
+                <div class="form-bottom">
+                    <p>
+                        <input type="checkbox" id="checkbox"/>
+                        自动登录
+                    </p>
+                    <p>
+                        暂无账号？
+                        <a href="register.html">立即注册>></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

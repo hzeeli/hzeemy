@@ -1,0 +1,123 @@
+.main{
+    background: #f2f2f2;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    background-attachment: fixed;
+}
+.bg-living{
+    background-image: url(../img/goods/livingroom-bg.jpg);
+}
+.bg-bed{
+    background-image: url(../img/goods/bedroom-bg.jpg)
+}
+.bg-dinner{
+    background-image: url(../img/goods/diningroom-bg.jpg)
+}
+.bg-bath{
+    background-image: url(../img/goods/showerroom-bg.jpg)
+}
+.bg-all{
+    background-image: url(../img/goods/all-bg.jpg)
+}
+.bg-kitchen{
+    background-image: url(../img/goods/kitchen-bg.jpg)
+}
+.bg-detail{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 2px #888888;
+}
+.bg-detail>p:first-child{
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.bg-detail>p:last-child{
+    font-weight: bold;
+    font-size: 16px;
+}
+.rcontainer{
+    background: #fff;
+    padding:30px;
+}
+.list-header{
+    padding: 20px 0 30px;
+    line-height: 50px;
+    color:#222
+}
+.header-title>span:first-child{
+    font: 20px Raleway,normal;
+    font-weight: bold;
+}
+
+.list-nav>ul>li{
+    float: left;
+    padding:5px 20px;
+}
+.list-nav>ul{
+    padding:5px;
+    margin-bottom: 30px;
+}
+.list-nav .active{
+    background: #FF6E00;
+}
+.list-nav .active>a{
+    color: #fff;
+}
+.list-nav li:hover{
+    background: #FF6E00;
+}
+.list-nav li:hover a{
+    color:#fff;
+}
+.exhibition-nav li:hover{
+    background: #FF6E00;
+}
+.exhibition-nav li:hover a{
+    color:#fff;
+}
+.exhibition-shelf>ul{
+    padding-top:20px;
+}
+.exhibition-shelf li{
+    width:25%;
+    float: left;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.exhibition-shelf a{
+    display: block;
+    overflow: hidden;
+}
+.exhibition-shelf img{
+    width:100%;
+    transition: 0.3s linear;
+}
+.exhibition-shelf p:first-child{
+    font:13px "宋体";
+    color:rgb(136, 136, 136);
+    margin-bottom: 5px;
+}
+.exhibition-shelf p:last-child{
+    font: 22px Raleway;
+    color: #191919;
+}
+.exhibition-shelf li:hover img{
+    transform: scale(1.1);
+}
+

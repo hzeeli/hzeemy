@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Furniture|会员注册</title>
+	<link rel="stylesheet" href="css/register.css"/>
+	<link rel="stylesheet" href="css/common.css"/>
+</head>
+<body>
+	<div class="main">
+		<div class="reg-main">
+			<!--注册表单-->
+			<div class="reg-form">
+				<p class="form-title">会员注册</p>
+				<ul class="reg-list">
+					<li>
+						<p>邮箱账号</p>
+						<p>
+							<span id="email-msg" class="pr"></span>
+						</p>
+						<input type="email" placeholder="请输入邮箱账号" id="email" onblur="email_blur()"/>
+						<span class="reg-icon email-icon"></span>
+					</li>
+					<li>
+						<p>
+							<span>昵称</span>
+						</p>
+						<p>
+							<span id="uname-msg" class="pr"></span>
+						</p>
+						<input type="text" placeholder="3-12位中英文、数字、下划线" id="uname" onblur="uname_blur()"/>
+						<span class="reg-icon uname-icon"></span>
+					</li>
+					<li>
+						<p>
+							<span>设置密码</span>
+						</p>
+						<p>
+							<span id="upwd-msg" class="pr"></span>
+						</p>
+						<input type="password" placeholder="请输入密码(6-16位数字、字母、字符的组合)" id="upwd" onblur="upwd_blur()"/>
+						<span class="reg-icon pwd-icon"></span>
+					</li>
+					<li>
+						<p>
+							<span>确认密码</span>
+						</p>
+						<p>
+							<span id="cpwd-msg" class="pr"></span>
+						</p>
+						<input type="password" placeholder="请重复输入密码(密码跟前面保持一致)" id="cpwd" onblur="cpwd_blur()"/>
+						<span class="reg-icon pwd-icon"></span>
+					</li>
+					<li>
+						<p>
+							<span>手机号</span>
+						</p>
+						<p>
+							<span id="phone-msg" class="pr"></span>
+						</p>
+						<input type="text" placeholder="请输入本人手机号" id="phone" onblur="phone_blur()"/>
+						<span class="reg-icon phone-icon" ></span>
+					</li>
+					<li>
+						<input type="button" value="同意协议并注册" onclick="register()"id="form-button" disabled />
+					</li>
+				</ul>
+				<div class="form-bottom">
+					<p>
+						<input type="checkbox" id="checkbox" onclick="check()"/>
+						我已阅读并同意
+						<a href="#">《会员注册协议》</a>
+					</p>
+					<p>
+						已有账号？
+						<a href="login.html">立即登录>></a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/register.js"></script>
+	<script src="js/footer.js"></script>
+</body>
+</html>
