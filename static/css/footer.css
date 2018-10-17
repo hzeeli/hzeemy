@@ -7,6 +7,7 @@
 }
 #footer{
     padding-top:60px;
+    min-width: 1204px;
     background: #e2f2f2;
 }
 #footer>div{

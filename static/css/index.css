@@ -2,12 +2,13 @@
 /**轮播图**/
 .main{
     position: relative;
-    min-width: 1200px;
+    min-width: 1204px;
 }
 .carousel{
     overflow: hidden;
     height: 800px;
-    width:1680px;
+    max-width: 1680px;
+	min-width: 1204px;
     margin: 0 auto;
     z-index: 1;
     position: relative;
@@ -19,11 +20,10 @@
 }
 #banner ul.banner_ul>li{
 	float:left;
-	width:1680px;
     overflow: hidden;
 }
 .carousel img{
-    width:1680px;
+    width:100%;
     height: 800px;
 }
 #banner a.ck-slide{
@@ -118,6 +118,7 @@
     height: 172px;
     background-color: #f6f6f6;
     text-align: center;
+    min-width: 1024px;
 }
 .block-link{
     padding: 12px 40px;

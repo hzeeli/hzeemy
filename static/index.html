@@ -11,18 +11,16 @@
 </head>
 <body>
     <!--头部-->
-    <header id="header">
-        
-    </header>
+    <header id="header"></header>
 	<!--主体部分-->
 	<div class="main">
 		<!--大轮播图-->
 		<div class="carousel" id="banner">
             <ul data-load="bannerImgs" class="banner_ul">
-                <li><a href="#"><img src="img/index/banner1.jpg"></a></li>
-                <li><a href="#"><img src="img/index/banner2.jpg"></a></li>
-                <li><a href="#"><img src="img/index/banner3.jpg"></a></li>
-                <li><a href="#"><img src="img/index/banner4.jpg"></a></li>     
+                <li><img src="img/index/banner1.jpg"></li>
+                <li><img src="img/index/banner2.jpg"></li>
+                <li><img src="img/index/banner3.jpg"></li>
+                <li><img src="img/index/banner4.jpg"></li>     
             </ul>
             <!--左右方向按钮-->
             <a href="#" class="ck-slide ck-left" data-move="left"></a>
@@ -75,11 +73,11 @@
             <div class="exhibition-nav border">
                 <ul class="clear">
                     <li class="active"><a href="#" class="text-white">全部</a></li>
-                    <li><a href="#">卧室</a></li>
-                    <li><a href="#">厨房</a></li>
-                    <li><a href="#">客厅</a></li>
-                    <li><a href="#">浴室</a></li>
-                    <li><a href="#">餐厅</a></li>
+                    <li><a href="room.html?rid=2">卧室</a></li>
+                    <li><a href="room.html?rid=3">厨房</a></li>
+                    <li><a href="room.html?rid=1">客厅</a></li>
+                    <li><a href="room.html?rid=4">浴室</a></li>
+                    <li><a href="room.html?rid=5">餐厅</a></li>
                 </ul>
             </div>
             <div class="exhibition-shelf">
@@ -304,7 +302,6 @@
     </div>
     <footer></footer>
     <script src="js/jquery-1.11.3.js"></script>
-    <!--<script src="js/ajax.js"></script>-->
     <script src="js/header.js"></script> 
     <script src="js/wow.js"></script>
     <script>new WOW().init();</script>

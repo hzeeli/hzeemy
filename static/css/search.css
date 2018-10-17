@@ -120,12 +120,6 @@
 .bactive{
     border: 2px solid #cac;
 }
-.fa-chevron-up{
-    
-}
-.fa-chevron-down{
-    
-}
 
 .fa-chevron-down,.fa-chevron-up,.fa-minus{
     top:-8px;

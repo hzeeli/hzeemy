@@ -1,5 +1,6 @@
 .main{
     background-color: #e2f2f2;
+    min-width: 1200px;
 }
 .w-big{
     width: 1200px !important;

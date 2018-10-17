@@ -2,7 +2,7 @@
     if(location.search.indexOf("rid=")!=-1){
 		var rid=location.search.split("=")[1];
 		var res=await $.ajax({
-			url:"http://localhost:3000/room/",
+			url:"/room/",
 			type:"get",
 			data:`rid=${rid}`,
 			dataType:"json"

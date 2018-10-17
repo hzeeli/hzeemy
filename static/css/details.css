@@ -268,3 +268,38 @@ ul.tabs>li>a.active{
 #content3 .content-inner>.content-text{
     padding:10px 5px 15px;
 }
+
+/*添加评论*/
+.writecomment>textarea{
+    font-size: 16px;
+    width: 765px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.writecomment>button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 255, 255,0.9);
+    border-style: none;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    float: right;
+    cursor: pointer;
+}
+.page_btn>ul{
+    float: right
+}
+.page_btn>ul>li{
+    float: left;
+    margin: 5px;
+}
+.page_btn>ul>li>button{
+    background-color: #fff;
+    border: 0;
+    padding: 5px;
+    color: #a3a3a3;
+    width: 50px;
+}
+.bactive{
+    border: 2px solid #cac;
+}

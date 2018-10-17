@@ -4,10 +4,12 @@ function login(){
         if(xhr.readyState==4&&xhr.status==200){
             var res = xhr.responseText;
                 if(res=="1"){
-                    alert("登陆成功")
-                    window.location.href="index.html"
+                    $.alertable.alert("登陆成功  正在前往主页……");
+                    setTimeout(function(){  
+                        window.location.href="index.html"
+                    },2000)
                 }else{
-                    alert("邮箱或密码错误");
+                    $.alertable.alert("邮箱或密码错误");
                 }
         }
     }

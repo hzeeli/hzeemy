@@ -1,13 +1,14 @@
 (async function(){
     var res=await $.ajax({
-      url:"/index/",
-      type:"get",
-      dataType:"json"
+        url:"/index/",
+        type:"get",
+        dataType:"json"
     });
     var parent=document.querySelector(
         ".exhibition-shelf>ul"
       );
     var user=res.session;
+    console.log(res)
     for(var i=0;i<res.product.length;i++){
         var {pname,price,pic,href}=res.product[i];
         var html=`
@@ -34,9 +35,15 @@
     trans=300,
     interval=3000,
     timer=null,
-    LIWIDTH=1680;
+    LIWIDTH=banner.width();
+    $(".banner_ul>li").css("width",LIWIDTH);
     bannerImgs.css("width",LIWIDTH*bannerImgs.children().length);
     bannerInds.children().first().addClass("hover");
+    $(window).resize(function (){
+        LIWIDTH=banner.width();
+        $(".banner_ul>li").css("width",LIWIDTH);
+        bannerImgs.css("width",LIWIDTH*bannerImgs.children().length);
+    })
     //移动一次的函数
     function moveOnce() {
         n++;
@@ -106,12 +113,12 @@
             bannerInds.children().eq(n).addClass("hover").siblings().removeClass("hover")
         }else{
             bannerInds.children().first().addClass("hover").siblings().removeClass("hover");
-                bannerImgs.css("transition",'');
-                n=0;
-                bannerImgs.css("left",0);
-                setTimeout(()=>{
-                    bannerImgs.css("transition",'all .'+trans/100+'s linear');
-                },100)
+            bannerImgs.css("transition",'');
+            n=0;
+            bannerImgs.css("left",0);
+            setTimeout(()=>{
+                bannerImgs.css("transition",'all .'+trans/100+'s linear');
+            },100)
         }
     })
 })()
